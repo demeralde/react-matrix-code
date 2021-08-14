@@ -1,0 +1,49 @@
+{
+  "name": "react-matrix-code",
+  "version": "1.0.0",
+  "description": "High-performance, simulated code rain from The Matrix.",
+  "keywords": [
+    "matrix",
+    "code",
+    "rain"
+  ],
+  "author": "Daniel Spajic",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dspacejs/react-matrix-code.git"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "develop": "yarn build --watch"
+  },
+  "files": [
+    "/dist"
+  ],
+  "directories": {
+    "dist": "./dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-typescript": "^8.2.5",
+    "@types/react": "^17.0.17",
+    "@types/react-dom": "^17.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.56.2",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "tslib": "^2.3.1",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
