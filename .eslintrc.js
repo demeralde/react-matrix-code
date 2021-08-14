@@ -65,12 +65,13 @@ module.exports = {
       },
     },
     {
-      files: ["*.test.ts", "*.test.tsx", "src/__mocks__/*.ts"],
+      files: ["*.test.ts", "*.test.tsx", "src/__mocks__/*.ts", "jest.setup.tsx"],
       env: {
         jest: true,
       },
       rules: {
         "react/destructuring-assignment": 0,
+        "@typescript-eslint/ban-types": "off",
       },
     },
     {
