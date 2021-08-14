@@ -65,7 +65,7 @@ module.exports = {
       },
     },
     {
-      files: ["*.test.ts", "*.test.tsx", "src/__mocks__/*.ts", "jest.setup.tsx"],
+      files: ["*.test.ts", "*.test.tsx", "src/__mocks__/*.ts", "src/jest.setup.tsx"],
       env: {
         jest: true,
       },
@@ -75,7 +75,7 @@ module.exports = {
       },
     },
     {
-      files: ["jest.preprocess.js", "jest.setup.tsx", "*.test.ts", "*.test.tsx"],
+      files: ["jest.preprocess.js", "src/jest.setup.tsx", "*.test.ts", "*.test.tsx"],
       env: {
         jest: true,
       },
