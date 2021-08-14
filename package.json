@@ -24,7 +24,8 @@
     "prettier": "prettier -c \"**/*.js\" \"**/*.ts\" \"**/*.tsx\"",
     "prettier:fix": "yarn prettier -- --write",
     "validate": "yarn lint && yarn prettier && yarn test",
-    "deploy": "yarn validate && yarn build"
+    "deploy": "yarn validate && yarn build",
+    "install-hooks": "husky install"
   },
   "files": [
     "/dist"
@@ -63,8 +64,10 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.0.6",
+    "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

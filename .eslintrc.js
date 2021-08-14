@@ -59,7 +59,7 @@ module.exports = {
       },
     },
     {
-      files: ["jest.config.js", "lint-staged.config.js"],
+      files: ["jest.config.js", "lint-staged.config.js", ".huskyrc.js"],
       env: {
         node: true,
       },
