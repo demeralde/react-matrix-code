@@ -1,0 +1,5 @@
+{
+  "eslint.alwaysShowStatus": true,
+  "editor.quickSuggestions": true,
+  "editor.autoClosingQuotes": "always"
+}

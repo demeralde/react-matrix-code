@@ -16,6 +16,6 @@
     "suppressImplicitAnyIndexErrors": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["src"],
+  "include": ["src", ".eslintrc.js", "babel.config.js", "rollup.config.js"],
   "exclude": ["node_modules", "dist"]
 }

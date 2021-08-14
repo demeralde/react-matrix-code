@@ -13,7 +13,7 @@ formats.forEach((format) => {
     output: {
       name: "react-matrix-code",
       dir: "dist",
-      format: "cjs",
+      format,
       exports: "default",
       sourcemap: true,
       globals: {
